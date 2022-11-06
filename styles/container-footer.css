@@ -1,0 +1,21 @@
+.container-footer {
+  width: 209px;
+  height: 84px;
+  margin: 120px 90.5px 0px;
+}
+
+.container-footer__image {
+  width: 118px;
+  height: 32px;
+  margin-left: 45.5px;
+}
+
+.container-footer__text {
+  width: 209px;
+  height: 20px;
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--transparent-color);
+}

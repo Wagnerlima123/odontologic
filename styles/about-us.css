@@ -1,0 +1,63 @@
+.about-us {
+  margin-top: 80px;
+  width: 329px;
+  height: 731px;
+  margin-left: 31px;
+  margin-right: 31px;
+}
+
+.about-us__text {
+  width: 91px;
+  height: 25px;
+  margin-left: 118px;
+  margin-right: 118px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--transparent-color);
+  text-align: center;
+  margin-bottom: 34px;
+}
+.dental {
+  width: 67px;
+  height: 89px;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--transparent-color);
+}
+.about-us__text-founded-was {
+  width: 327px;
+  height: 89px;
+  letter-spacing: -1px;
+  margin-left: 0px;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--blue-color);
+  margin-bottom: 34px;
+}
+
+.about-us__text-specialist {
+  width: 310px;
+  height: 120px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dark-gray);
+  opacity: 1;
+  margin-left: 9px;
+}
+.about-us__text-slogan {
+  width: 310px;
+  font-size: 18px;
+  font-weight: 500;
+
+  color: var(--dark-gray);
+  opacity: 1;
+  margin-left: 9px;
+  margin-bottom: 54px;
+}
+
+.about-us__image2 {
+  margin-left: 28.75px;
+  width: 274px;
+  height: 278px;
+  max-width: 100%;
+}

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #ffffff;
+  --blue-color: #0b498f;
+  --dark-gray: #00000080;
+  --transparent-color: #c4c4c4;
+  --black-color: #000000;
+}
+
+.body {
+  width: 375px;
+
+  background-color: #ffffff;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

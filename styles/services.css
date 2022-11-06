@@ -1,0 +1,111 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 266px;
+  height: 764px;
+  margin-left: 62px;
+}
+
+.services__span {
+  margin-top: 80px;
+  width: 77px;
+  height: 25px;
+  color: Var(--transparent-color);
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 94.5px;
+}
+
+.services__text {
+  margin-top: 26px;
+  width: 266px;
+  height: 58px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
+  text-align: center;
+}
+
+.services__icon1 {
+  width: 66px;
+  height: 66px;
+  margin-left: 100px;
+}
+
+.services__text-protection {
+  margin-left: 39.5px;
+  margin-top: 24px;
+  text-align: center;
+  width: 187px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black-color);
+}
+.services__icon2 {
+  width: 66px;
+  height: 66px;
+  margin-left: 100px;
+}
+.services__text-odontologia {
+  margin-left: 39.5px;
+  margin-top: 24px;
+  text-align: center;
+  width: 187px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+.services__icon3 {
+  width: 66px;
+  height: 66px;
+  margin-left: 100px;
+}
+.services__text-limpeza {
+  margin-left: 39.5px;
+  margin-top: 24px;
+  text-align: center;
+  width: 187px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+.services__icon4 {
+  width: 66px;
+  height: 66px;
+  margin-left: 100px;
+}
+
+.services__text-implantes {
+  margin-left: 39.5px;
+  margin-top: 24px;
+  text-align: center;
+  width: 187px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+.services__icon5 {
+  width: 66px;
+  height: 66px;
+  margin-left: 100px;
+}
+
+.services__text-clareamento {
+  margin-left: 39.5px;
+  margin-top: 24px;
+  text-align: center;
+  width: 187px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black-color);
+}

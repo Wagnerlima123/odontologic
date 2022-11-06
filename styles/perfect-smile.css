@@ -1,0 +1,55 @@
+.perfect-smile {
+  width: 374px;
+  height: 517px;
+  margin: 0px 8px;
+}
+
+.perfect-smile__text {
+  margin-top: 30px;
+  width: 306px;
+  height: 25px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--transparent-color);
+  opacity: 1;
+  margin-left: 34px;
+}
+
+.perfect-smile__text-bucal {
+  width: 327px;
+  height: 36px;
+  color: var(--blue-color);
+  margin-top: 7px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 23.5px;
+  margin-bottom: 15px;
+}
+
+.perfect-smile__schedule {
+  margin-top: 10px 53px 0px;
+  text-align: center;
+  width: 135px;
+  height: 38px;
+  border-radius: 5px;
+  padding-top: 8px;
+  background-color: var(--blue-color);
+}
+
+.perfect-smile__schedule-botton {
+  width: 126px;
+  height: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.perfect-smile__image {
+  width: 187px;
+  height: 271px;
+  margin: 65px 93.5px 0px;
+}
