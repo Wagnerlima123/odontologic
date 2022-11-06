@@ -1,5 +1,5 @@
 .about-us {
-  margin-top: 80px;
+  margin-top: 50px;
   width: 329px;
   height: 731px;
   margin-left: 31px;
@@ -10,7 +10,6 @@
   width: 91px;
   height: 25px;
   margin-left: 118px;
-  margin-right: 118px;
   font-size: 18px;
   font-weight: 600;
   color: var(--transparent-color);
@@ -26,8 +25,8 @@
 }
 .about-us__text-founded-was {
   width: 327px;
-  height: 89px;
-  letter-spacing: -1px;
+  text-align: center;
+  letter-spacing: -2px;
   margin-left: 0px;
   font-size: 28px;
   font-weight: 600;
@@ -45,10 +44,10 @@
   margin-left: 9px;
 }
 .about-us__text-slogan {
+  margin-top: 20px;
   width: 310px;
   font-size: 18px;
   font-weight: 500;
-
   color: var(--dark-gray);
   opacity: 1;
   margin-left: 9px;
@@ -56,8 +55,6 @@
 }
 
 .about-us__image2 {
-  margin-left: 28.75px;
-  width: 274px;
-  height: 278px;
-  max-width: 100%;
+  margin-left: 14.5px;
+  width: 300px;
 }
