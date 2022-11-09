@@ -8,7 +8,7 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
-  width: 330px;
+  width: 320px;
   height: 36px;
 }
 
@@ -38,7 +38,8 @@ nav {
 .header__description-text {
   width: 288px;
   height: 88px;
-  margin-left: 27px;
+  margin-left: 13.5px;
+  margin-right: 13.5px;
   margin-bottom: 20px;
   color: var(--blue-color);
   text-align: center;
@@ -84,5 +85,102 @@ nav {
 .dentist-chair {
   width: 270px;
   margin-top: 30px;
+
   margin-left: 30px;
+}
+
+@media (min-width: 900px) {
+  .header-content {
+    width: 850px;
+    height: 658px;
+  }
+}
+
+@media (min-width: 900px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 820px;
+    height: 49px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__logo {
+    max-width: 50%;
+    width: 182px;
+    height: 48px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__button-mark {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 101px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__mark {
+    width: 130px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__description-text {
+    width: 319px;
+    height: 131px;
+    font-size: 22px;
+    padding-top: 55px;
+    margin-left: -7px;
+  }
+  @media (min-width: 900px) {
+    .only-medium {
+      display: flex;
+    }
+  }
+}
+@media (min-width: 900px) {
+  .header__description-safety {
+    width: 269px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 692px;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__description-button {
+    margin-top: 50px;
+    width: 235px;
+    height: 45px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header__button-schedule {
+    width: 126px;
+    height: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 900px) {
+  .dentist-chair {
+    position: absolute;
+    left: 380px;
+    top: 150px;
+    width: 420px;
+    height: 496px;
+  }
 }
