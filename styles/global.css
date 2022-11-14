@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.only-medium {
+  display: none;
+}
+.only-big {
+  display: none;
+}
+
 :root {
   --white-color: #ffffff;
   --blue-color: #0b498f;
@@ -10,12 +17,9 @@
   --black-color: #000000;
 }
 
-.only-medium {
-  display: none;
-}
 .body {
   background-color: #ffffff;
-  margin: 0px;
+  margin: 0px 7.5px;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
 }

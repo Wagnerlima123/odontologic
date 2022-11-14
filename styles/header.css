@@ -1,29 +1,27 @@
 .header-content {
-  margin-top: 30px;
-  margin-left: 24px;
-  margin-right: 24px;
-  height: 673px;
+  margin: 0px 22px;
 }
 nav {
+  height: 32px;
+  margin-top: 30px;
+  margin-left: 9px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
-  width: 320px;
-  height: 36px;
 }
 
 .header__logo {
-  width: 170px;
   height: 36px;
 }
 
 .header__button-mark {
-  width: 108px;
-  height: 36px;
+  width: 130px;
+  height: 32px;
   border: 1px solid;
   color: var(--blue-color);
   border-radius: 5px;
-  padding: 7px;
+  padding: 5px;
+  text-align: center;
 }
 
 .header__mark {
@@ -36,10 +34,8 @@ nav {
 }
 
 .header__description-text {
-  width: 288px;
   height: 88px;
-  margin-left: 13.5px;
-  margin-right: 13.5px;
+  margin: 0px 13.5px 20px 13.5px;
   margin-bottom: 20px;
   color: var(--blue-color);
   text-align: center;
@@ -52,10 +48,8 @@ nav {
 }
 
 .header__description-safety {
-  width: 300px;
-  height: 70px;
   font-size: 14px;
-  margin-left: 19.5px;
+  margin: 0px 19.5px 0px 19.5px;
   text-align: center;
   letter-spacing: 1px;
   color: var(--dark-gray);
@@ -75,7 +69,7 @@ nav {
 
 .header__button-schedule {
   text-decoration: none;
-  width: 126px;
+
   height: 20px;
   font-weight: 500;
   font-size: 14px;
@@ -83,16 +77,13 @@ nav {
 }
 
 .dentist-chair {
-  width: 270px;
-  margin-top: 30px;
-
-  margin-left: 30px;
+  margin: 40px 40px 20px;
+  width: 75%;
 }
 
 @media (min-width: 900px) {
-  .header-content {
-    width: 850px;
-    height: 658px;
+  .only-medium {
+    display: initial;
   }
 }
 
@@ -100,8 +91,6 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
-    width: 820px;
-    height: 49px;
   }
 }
 
@@ -115,16 +104,13 @@ nav {
 
 @media (min-width: 900px) {
   .header__button-mark {
-    width: 160px;
-    height: 40px;
-    margin-bottom: 101px;
+    width: 150px;
+    margin-bottom: 10px;
   }
 }
 
 @media (min-width: 900px) {
   .header__mark {
-    width: 130px;
-    height: 20px;
     font-size: 16px;
     font-weight: 600;
     margin-left: 7px;
@@ -134,53 +120,106 @@ nav {
 
 @media (min-width: 900px) {
   .header__description-text {
-    width: 319px;
-    height: 131px;
-    font-size: 22px;
-    padding-top: 55px;
-    margin-left: -7px;
-  }
-  @media (min-width: 900px) {
-    .only-medium {
-      display: flex;
-    }
+    margin-top: 80px;
+    margin-left: -46px;
+    font-size: 30px;
+    width: 519px;
+    height: 161px;
   }
 }
+
+@media (min-width: 900px) {
+  .dentist-chair {
+    width: 50%;
+    margin-top: -380px;
+    margin-left: 420px;
+  }
+}
+
 @media (min-width: 900px) {
   .header__description-safety {
-    width: 269px;
-    height: 50px;
-    font-size: 14px;
+    width: 250px;
+    margin-top: 10px;
+    font-size: 20px;
     font-weight: 500;
-    margin-right: 692px;
-    margin-left: 8px;
+    margin-right: 650px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 1095px) {
+  .only-medium {
+    display: initial;
   }
 }
 
 @media (min-width: 900px) {
   .header__description-button {
     margin-top: 50px;
-    width: 235px;
-    height: 45px;
     margin-left: 20px;
   }
 }
 
 @media (min-width: 900px) {
   .header__button-schedule {
-    width: 126px;
-    height: 10px;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
-    padding-bottom: 5px;
   }
 }
-@media (min-width: 900px) {
+
+@media (min-width: 1200px) {
+  .only-big {
+    display: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-content > nav {
+    margin-left: 49px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__logo {
+    width: 181px;
+    height: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__description-text {
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 1092px) {
   .dentist-chair {
-    position: absolute;
-    left: 380px;
-    top: 150px;
-    width: 420px;
-    height: 496px;
+    margin-left: 563px;
+    max-width: 620px;
+    max-height: 696px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__description-safety {
+    margin-right: 780px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__description-button {
+    width: 225px;
+    height: 57px;
+    margin-left: 77px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__button-schedule {
+    width: 126px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
   }
 }

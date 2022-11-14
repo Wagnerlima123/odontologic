@@ -1,223 +1,217 @@
 .services {
   margin-top: 80px;
-  width: 266px;
-  height: 964px;
-  margin-left: 44px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 5px;
+  text-align: center;
 }
 
 .services__span {
   margin-top: 65px;
-  width: 77px;
-  height: 25px;
   color: Var(--transparent-color);
   opacity: 1;
   font-size: 18px;
   font-weight: 600;
-  margin-left: 94.5px;
 }
 
 .services__text {
   margin-top: 26px;
-  width: 266px;
-  height: 58px;
   font-size: 24px;
   font-weight: 600;
   color: var(--black-color);
   text-align: center;
 }
-.sevices__list {
-  display: flex;
-  flex-direction: column;
-}
-
-.services__icon1 {
-  width: 66px;
-  height: 66px;
-  margin-left: 100px;
-  margin-top: 58px;
-}
-
 .services__text-protection {
-  margin-left: 39.5px;
-  margin-top: 24px;
+  margin-top: 29px;
   text-align: center;
-  width: 187px;
-  height: 25px;
+
   font-weight: 500;
   font-size: 18px;
   color: var(--black-color);
 }
+
+.services__icon1 {
+  margin-top: 58px;
+}
+
 .services__icon2 {
-  width: 66px;
-  height: 66px;
   margin-top: 41px;
-  margin-left: 100px;
 }
 .services__text-odontologia {
-  margin-left: 39.5px;
-  margin-top: 24px;
+  margin-top: 27px;
   text-align: center;
-  width: 187px;
-  height: 25px;
+
   font-weight: 500;
   font-size: 18px;
   color: var(--black-color);
 }
 
 .services__icon3 {
-  width: 66px;
-  height: 66px;
-  margin-top: 43px;
-  margin-left: 100px;
+  margin-top: 47px;
 }
 .services__text-limpeza {
-  margin-left: 39.5px;
-  margin-top: 21px;
+  margin-top: 23px;
   text-align: center;
-  width: 187px;
-  height: 25px;
+
   font-weight: 500;
   font-size: 18px;
   color: var(--black-color);
 }
 
 .services__icon4 {
-  width: 66px;
-  height: 66px;
-  margin-top: 43px;
-  margin-left: 100px;
+  margin-top: 41px;
 }
 
 .services__text-implantes {
-  margin-left: 39.5px;
-  margin-top: 21px;
+  margin-top: 22px;
   text-align: center;
-  width: 187px;
-  height: 25px;
+
   font-weight: 500;
   font-size: 18px;
   color: var(--black-color);
 }
 
 .services__icon5 {
-  width: 66px;
-  height: 66px;
-  margin-top: 43px;
-  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .services__text-clareamento {
-  margin-left: 39.5px;
-  margin-top: 43px;
+  margin-top: 39px;
   text-align: center;
-  width: 187px;
-  height: 25px;
+
   font-weight: 500;
   font-size: 18px;
   color: var(--black-color);
 }
 
 @media (min-width: 900px) {
-  .services {
-    width: 850px;
-    height: 214px;
-  }
-}
-
-@media (min-width: 900px) {
   .services__span {
-    width: 85px;
-    height: 40px;
     font-size: 25px;
-    margin-left: 382.5px;
   }
 }
 
 @media (min-width: 900px) {
-  .services__text {
-    width: 661px;
-    height: 31px;
-    font-size: 30px;
-    margin-left: 94.5px;
+  .services__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 900px) {
-  .services__icon1 {
-    position: absolute;
-    top: 1550px;
-    left: 5px;
+  .icon1 {
+    margin-top: 20px;
+    max-width: 50%;
   }
 }
 
 @media (min-width: 900px) {
-  .services__icon2 {
-    position: absolute;
-    top: 1566px;
-    left: 171px;
+  .icon2 {
+    margin-top: 41px;
+    max-width: 50%;
   }
 }
 
 @media (min-width: 900px) {
-  .services__icon3 {
-    position: absolute;
-    top: 1566px;
-    left: 333px;
+  .icon3 {
+    margin-top: 27px;
+    max-width: 65%;
+  }
+
+  @media (min-width: 900px) {
+    .icon4 {
+      margin-top: 45px;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .icon5 {
+      margin-top: 37px;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .services__text {
+      font-size: 30px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .services {
+      max-width: 1400px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .services__list {
+      max-width: 1400px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .services__span {
+      font-size: 30px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .icon1 {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .services__text-protection {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .icon2 {
+      max-width: 100%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .services__text-odontologia {
+      font-size: 20px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .icon3 {
+    max-width: 100%;
   }
 }
 
-@media (min-width: 900px) {
-  .services__icon4 {
-    position: absolute;
-    top: 1575px;
-    left: 532px;
-  }
-}
-
-@media (min-width: 900px) {
-  .services__icon5 {
-    position: absolute;
-    top: 1568px;
-    left: 675px;
-  }
-}
-
-@media (min-width: 900px) {
-  .services__text-protection {
-    position: absolute;
-    top: 1662px;
-    left: 2px;
-  }
-}
-
-@media (min-width: 900px) {
-  .services__text-odontologia {
-    position: absolute;
-    top: 1662px;
-    left: 173px;
-  }
-}
-
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .services__text-limpeza {
-    position: absolute;
-    top: 1665px;
-    left: 334px;
+    font-size: 20px;
+    margin-top: 31px;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
+  .icon4 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
   .services__text-implantes {
-    position: absolute;
-    top: 1665px;
-    left: 527px;
+    font-size: 20px;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
+  .icon5 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
   .services__text-clareamento {
-    position: absolute;
-    top: 1643px;
-    left: 670px;
+    font-size: 20px;
+    margin-top: 36px;
   }
 }
