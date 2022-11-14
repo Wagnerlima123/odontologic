@@ -61,6 +61,7 @@ nav {
   width: 225px;
   height: 57px;
   background-color: var(--blue-color);
+  text-align: center;
   margin-left: 58.5px;
   border: 2px solid white;
   border-radius: 5px;
@@ -72,13 +73,19 @@ nav {
 
   height: 20px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 10px;
   color: white;
 }
 
 .dentist-chair {
   margin: 40px 40px 20px;
   width: 75%;
+}
+
+@media (min-width: 768px) {
+  .dentist-chair {
+    margin-left: 85px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -93,8 +100,7 @@ nav {
     justify-content: space-between;
   }
 }
-
-@media (min-width: 900px) {
+. @media (min-width: 900px) {
   .header__logo {
     max-width: 50%;
     width: 182px;
@@ -138,18 +144,16 @@ nav {
 
 @media (min-width: 900px) {
   .header__description-safety {
-    width: 250px;
     margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
-    margin-right: 650px;
-    letter-spacing: 1px;
+    margin-right: 600px;
   }
 }
 
-@media (min-width: 1095px) {
+@media (min-width: 900px) {
   .only-medium {
-    display: initial;
+    display: flex;
   }
 }
 
@@ -174,7 +178,8 @@ nav {
 }
 
 @media (min-width: 1200px) {
-  .header-content > nav {
+  nav {
+    max-width: 1200px;
     margin-left: 49px;
   }
 }
@@ -204,7 +209,8 @@ nav {
 
 @media (min-width: 1200px) {
   .header__description-safety {
-    margin-right: 780px;
+    width: 508px;
+    margin-left: 52px;
   }
 }
 @media (min-width: 1200px) {

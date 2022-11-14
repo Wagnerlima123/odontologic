@@ -96,7 +96,7 @@
 @media (min-width: 900px) {
   .about-us__text-slogan {
     padding-top: 30px;
-    margin-left: 50px;
+    margin-left: 5px;
     width: 380px;
     height: 50px;
     font-size: 18px;
@@ -170,6 +170,7 @@
 
 @media (min-width: 1200px) {
   .about-us__text-slogan {
-    margin-left: 80px;
+    margin-left: 130px;
+    padding-top: 50px;
   }
 }
