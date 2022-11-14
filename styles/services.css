@@ -127,7 +127,7 @@
 
   @media (min-width: 900px) {
     .icon5 {
-      margin-top: 37px;
+      margin-top: 46px;
       max-width: 50%;
     }
   }
@@ -206,6 +206,7 @@
 @media (min-width: 1200px) {
   .icon5 {
     max-width: 100%;
+    margin-top: 35px;
   }
 }
 

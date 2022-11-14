@@ -93,15 +93,15 @@
   .perfect-smile__text {
     font-size: 24px;
     font-weight: 500;
-    margin-right: 400px;
+    margin-right: 366px;
   }
 }
 @media (min-width: 1200px) {
   .perfect-smile__image {
     position: absolute;
-    top: 2700px;
-    left: 100px;
-    width: 431px;
+    top: 2400px;
+    left: 300px;
+    width: 410px;
   }
 }
 
